@@ -240,4 +240,13 @@ section{padding:50px 0}
 .counters{grid-template-columns:1fr 1fr}
 .section-heading h2{font-size:26px}
 .contact-title h2{font-size:22px}
+.image-circle {
+              position: absolute;
+              width: 279px;
+              height: 288px;
+              border-radius: 50%;
+              background: radial-gradient(circle, #126be5, #063579 70%, transparent 72%);
+              bottom: 30px;
+              animation: none;
+          }
 }
